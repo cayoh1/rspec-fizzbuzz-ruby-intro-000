@@ -4,13 +4,17 @@ def fizzbuzz(x)
   if x % 3 == 0
     puts "Fizz"
     return "Fizz"
+  end
   elsif x % 5 == 0
     puts "Buzz"
     return "Buzz"
+  end
   elsif (x % 5 == 0) && (x % 3 == 0)
     puts "FizzBuzz"
     return "FizzBuzz"
+  end
   else
     puts "NADA"
     return nil
+  end
 end

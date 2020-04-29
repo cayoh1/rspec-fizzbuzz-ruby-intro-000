@@ -3,14 +3,13 @@
 def fizzbuzz(x)
   if x % 3 == 0
     puts "Fizz"
-    return "Fizz"
-  # elsif x % 5 == 0
-  #   puts "Buzz"
-  #   return "Buzz"
-  # elsif (x % 5 == 0) and (x % 3 == 0)
-  #   puts "FizzBuzz"
-  #   return "FizzBuzz"
-  # else
-  #   puts "NADA"
-  #   return nil
+  elsif x % 5 == 0
+    puts "Buzz"
+
+  elsif (x % 5 == 0) and (x % 3 == 0)
+    puts "FizzBuzz"
+
+  else
+    puts nil
+
 end

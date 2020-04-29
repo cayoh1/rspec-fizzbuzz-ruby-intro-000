@@ -2,9 +2,11 @@
 # See README.md for instructions on how to do this
 def fizbuzz(x)
   if x % 3 == 0
-    puts "Fizz"
+    return "Fizz"
   elsif x % 5 == 0
-    puts "Buzz"
+    return "Buzz"
   elsif x % 5 == 0 && x%3 == 0
-    puts "FizzBuzz"
+    return "FizzBuzz"
+  else
+    returnnil
 end

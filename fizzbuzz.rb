@@ -8,5 +8,5 @@ def fizbuzz(x)
   elsif x % 5 == 0 && x%3 == 0
     return "FizzBuzz"
   else
-    returnnil
+    return nil
 end
